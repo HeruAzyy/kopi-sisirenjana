@@ -21,5 +21,9 @@
 }
 
 .line {
-	@apply after:content-[''] after:w-full after:bg-secondary after:h-0.5 after:rounded-full after:block after:scale-x-0 after:hover:scale-x-100 after:transition after:origin-left hover:text-secondary transition;
+	@apply after:content-[''] after:w-full after:bg-secondary after:h-0.5 after:rounded-full lg:after:block after:scale-x-0 after:hover:scale-x-100 after:transition after:origin-left hover:text-secondary transition;
+}
+
+.active {
+	@apply right-0;
 }

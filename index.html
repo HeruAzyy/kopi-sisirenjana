@@ -25,11 +25,13 @@
 			class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center py-6 px-[7%] bg-dark/70 border-b border-primary">
 			<a href="/" class="text-2xl font-bold">Sisi Renjana.</a>
 
-			<div class="hidden lg:flex gap-5 items-center font-semibold">
-				<a href="#" class="line">Home</a>
-				<a href="#about" class="line">About Us</a>
-				<a href="#menu" class="line">Menu</a>
-				<a href="#contact" class="line">Contact</a>
+			<div
+				id="navbar-nav"
+				class="text-dark text-center absolute top-full -right-full bg-light w-1/2 h-screen font-semibold transition-all md:w-1/3 lg:bg-transparent lg:h-[inherit] lg:static lg:flex lg:gap-5 lg:items-center lg:justify-center lg:text-light">
+				<a href="#" class="line block mt-5 lg:mt-0">Home</a>
+				<a href="#about" class="line block mt-5 lg:mt-0">About Us</a>
+				<a href="#menu" class="line block mt-5 lg:mt-0">Menu</a>
+				<a href="#contact" class="line block mt-5 lg:mt-0">Contact</a>
 			</div>
 
 			<div class="flex gap-5 items-center">
@@ -53,7 +55,7 @@
 					</svg>
 				</a>
 
-				<a href="#">
+				<a href="#" id="hamburger-menu">
 					<svg
 						class="w-6 fill-light hover:fill-secondary lg:hidden"
 						xmlns="http://www.w3.org/2000/svg"
@@ -64,5 +66,7 @@
 				</a>
 			</div>
 		</nav>
+
+		<script src="assets/JS/script.js"></script>
 	</body>
 </html>
