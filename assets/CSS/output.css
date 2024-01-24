@@ -618,12 +618,12 @@ h3 {
   height: 500vh;
 }
 
-.h-dvh {
-  height: 100dvh;
-}
-
 .h-screen {
   height: 100vh;
+}
+
+.h-svh {
+  height: 100svh;
 }
 
 .w-1\/2 {
