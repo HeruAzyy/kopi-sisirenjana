@@ -19,10 +19,10 @@
 
 		<title>Kopi Sisi Renjana</title>
 	</head>
-	<body>
+	<body class="h-[500vh]">
 		<!-- NAVBAR -->
 		<nav
-			class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center py-6 px-[7%] bg-dark/70 border-b border-primary">
+			class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center py-6 px-[7%] bg-dark/70 backdrop-blur-xl border-b border-primary">
 			<a href="/" class="text-2xl font-bold">Sisi Renjana.</a>
 
 			<div
@@ -66,6 +66,35 @@
 				</a>
 			</div>
 		</nav>
+
+		<!-- HERO SECTION -->
+		<section
+			id="home"
+			class="h-screen bg-cover bg-center flex after:content-[''] after:absolute after:bottom-0 after:w-full after:h-1/4 after:bg-gradient-to-t after:from-dark"
+			style="background-image: url(assets/img/hero.webp)">
+			<main class="self-center px-[7%]">
+				<h1 class="pb-2">
+					Welcome to,
+					<br />
+					<span class="text-secondary">Sisi Renjana</span>
+					coffee shop
+				</h1>
+				<p class="mix-blend-difference pb-10">
+					With sisi renjana coffee you can enjoy a full cup of coffee Love.
+				</p>
+				<button
+					class="flex items-center rounded-md py-3 px-6 gap-2 font-semibold bg-primary group">
+					Our Menu
+					<svg
+						class="fill-light w-3 group-hover:translate-x-1 transition-all"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 448 512">
+						<path
+							d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+					</svg>
+				</button>
+			</main>
+		</section>
 
 		<script src="assets/JS/script.js"></script>
 	</body>
