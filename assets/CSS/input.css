@@ -31,3 +31,7 @@
 .active {
 	@apply right-0;
 }
+
+.search-active {
+	@apply scale-y-100;
+}
