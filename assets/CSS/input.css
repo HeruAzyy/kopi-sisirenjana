@@ -35,3 +35,19 @@
 .search-active {
 	@apply scale-y-100;
 }
+
+.animate-modal {
+	animation: fadeModal 0.5s;
+}
+
+@keyframes fadeModal {
+	from {
+		top: -300px;
+		opacity: 0;
+	}
+
+	to {
+		top: 0;
+		opacity: 1;
+	}
+}

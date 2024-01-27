@@ -42,3 +42,26 @@ document.addEventListener('click', function (e) {
 		cart.classList.remove('active')
 	}
 })
+
+// Modal box item detail
+const itemDetail = document.querySelector('#modal-box')
+const detailButtons = document.querySelectorAll('#btn-detail')
+
+detailButtons.forEach((btn) => {
+	btn.onclick = (e) => {
+		itemDetail.style.display = 'flex'
+		e.preventDefault()
+	}
+})
+
+// Close modal box
+document.getElementById('close-icon').onclick = (e) => {
+	itemDetail.style.display = 'none'
+	e.preventDefault()
+}
+
+window.onclick = (e) => {
+	if (e.target === itemDetail) {
+		itemDetail.style.display = 'none'
+	}
+}
